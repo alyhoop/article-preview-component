@@ -1,0 +1,38 @@
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+body {
+  font-size: 13px;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container {
+  margin: 10%;
+  border-radius: 20px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 200px) auto;
+  grid-template-rows: repeat(3, 200px) auto;
+}
+
+.drawer-img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.header {
+  font-weight: 700;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.avatar-img {
+  border-radius: 50%;
+}
+
+.share-img {
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  padding: 2%;
+}
