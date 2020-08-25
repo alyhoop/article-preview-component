@@ -17,6 +17,11 @@ body {
   grid-auto-rows: minmax(50px, auto);
 }
 
+.drawer {
+  grid-column: 1;
+  grid-row: 1/6;
+}
+
 .header {
   font-weight: 700;
   grid-column: 2;
@@ -46,7 +51,7 @@ body {
 
 .share-img {
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 2;
   background-color: hsl(210, 46%, 95%);
   border-radius: 50%;
   padding: 2%;
