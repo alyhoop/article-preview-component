@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #edf2f8;
   box-sizing: border-box;
   font-family: 'Manrope', sans-serif;
   font-size: 13px;
 }
+
 main {
   align-items: center;
   display: flex;
@@ -16,6 +18,7 @@ main {
   justify-content: center;
   width: 100vw;
 }
+
 .card {
   background-color: #fff;
   border-radius: 10px;
@@ -25,6 +28,7 @@ main {
   position: absolute;
   width: 340px;
 }
+
 .card .card-image {
   background: url("./images/drawers.jpg") center no-repeat;
   background-size: cover;
@@ -33,11 +37,13 @@ main {
   width: 100%;
   height: 200px;
 }
+
 .card .card-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .card .card-content .card-title {
   color: #48556a;
   font-size: 16px;
@@ -47,6 +53,7 @@ main {
   margin-top: 40px;
   width: 260px;
 }
+
 .card .card-content .card-text {
   color: #8a939c;
   font-weight: 300;
@@ -63,30 +70,37 @@ main {
   padding-bottom: 20px;
   width: 260px;
 }
+
 .card .card-footer .card-footer-image {
   width: 40px;
 }
+
 .card .card-footer .card-footer-image img {
   border-radius: 50%;
   width: inherit;
 }
+
 .card .card-footer .card-footer-info {
   letter-spacing: 0.4px;
 }
+
 .card .card-footer .card-footer-info p {
   color: #8a939c;
   font-weight: 200;
   padding-left: 20px;
 }
+
 .card .card-footer .card-footer-info p:first-child {
   color: #48556a;
   font-weight: 700;
   padding-bottom: 8px;
 }
+
 .card-footer-share {
   padding-top: 8px;
   cursor: pointer;
 }
+
 .card-footer-share .card-footer-share--light {
   background-color: #edf2f8;
   border-radius: 50%;
@@ -100,6 +114,7 @@ main {
   text-align: center;
   width: 30px;
 }
+
 .card-footer-share .card-footer-share--dark {
   background-color: #6d7f97;
   border-radius: 50%;
@@ -111,6 +126,7 @@ main {
   text-align: center;
   width: 30px;
 }
+
 .content-footer {
   background-color: #48556a;
   border-bottom-left-radius: 10px;
@@ -124,43 +140,53 @@ main {
   bottom: -229px;
   animation: 0.5s blink ease;
 }
+
 .content-footer.content-footer.active {
   display: grid;
 }
+
 .content-footer .social-media {
   text-align: center;
   line-height: 70px;
 }
+
 .content-footer .social-media span {
   color: #6d7f97;
   letter-spacing: 4px;
 }
+
 .content-footer .social-media i {
   font-size: 16px;
   padding: 0 5px;
 }
+
 .content-footer .card-footer-share--dark {
   position: relative;
   left: -4px;
 }
+
 .attribution {
   width: 100%;
   text-align: center;
   color: #48556a;
 }
+
 .attribution a {
   text-decoration: none;
   color: #6d7f97;
 }
+
 .attribution a:hover {
   text-decoration: underline;
 }
+
 @media screen and (min-width: 900px) {
   .card {
     flex-direction: row;
     width: 670px;
     height: 270px;
   }
+
   .card .card-image {
     background-position: left;
     border-top-right-radius: 0;
@@ -168,34 +194,42 @@ main {
     height: 100%;
     width: 265px;
   }
+
   .card .card-content {
     margin: 0 auto;
   }
+
   .card .card-content .card-title {
     margin-top: 30px;
     width: 350px;
     font-size: 18px;
   }
+
   .card .card-content .card-text {
     margin-top: 15px;
     width: 350px;
   }
+
   .card .card-footer {
     padding-bottom: 0;
     margin-top: 20px;
     width: 350px;
     grid-template-columns: 1fr 4fr 1fr;
   }
+
   .card .card-footer .card-footer-info {
     letter-spacing: 0.4px;
   }
+
   .card .card-footer .card-footer-info p {
     padding-left: 5px;
   }
+
   .card .card-footer .card-footer-info p:first-child {
     padding-top: 3px;
     padding-bottom: 0;
   }
+
   .card .card-footer .card-footer-share {
     display: flex;
     justify-content: end;
@@ -204,6 +238,7 @@ main {
     margin-left: 0;
     margin-right: 0;
   }
+
   .content-footer {
     border-radius: 10px;
     grid-template-columns: 1fr;
@@ -213,6 +248,7 @@ main {
     bottom: -30px;
     left: 292px;
   }
+
   .content-footer::before {
     border-top: 15px solid #48556a;
     border-bottom: 15px solid transparent;
@@ -225,16 +261,21 @@ main {
     top: 49px;
     left: 100px;
   }
+
   .content-footer .social-media {
     line-height: 50px;
   }
+
   .content-footer .card-footer-share--dark {
     display: none;
   }
+
 }
+
 .index-button {
   z-index: 99;
 }
+
 @keyframes blink {
   0% {
     opacity: 0;
